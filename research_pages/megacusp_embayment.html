@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Kelby Kramer's Webiste</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+                                
+                <!-- Header -->
+					<header id="header">
+						<a href="../index.html" class="logo">Kelby Kramer</a>
+					</header>
+
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="..index.html">About</a></li>
+							<li  class="active"><a href="../research.html">Research</a></li>
+                            <li><a href="../portfolio.html">Portfolio</a></li>
+                            <li><a href="../highpointing.html">Highpointing</a></li>
+                            <li><a href="../cv.html">CV</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://twitter.com/kelbyh2o" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                            <li><a href="https://linkedin.com/in/kelbyh2o" class="icon brands fa-linkedin alt"><span class="label">LinkdIn</span></a></li>
+							<li><a href="https://www.instagram.com/krazykelbs" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/kelbyh2o" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+                        <!-- Post -->
+							<section class="post">
+
+								<header class="major">
+									<span class="date">Presented at AGU 2024</span>									
+									<h1>Megacusp Embayment in Monterey Bay and Beyond</h1>                                 
+								</header>
+
+                                <p style="text-align: center"><em>Kelby B. Kramer and Tom W. Bell</em></p>
+                                <p style="text-align: center"><em>Contact: <a href="mailto:kelbyh2o@mit.edu">kelbyh2o@mit.edu</a></em></p>
+                                
+                                <div class="image main" style="text-align: center"><img src="../images/megacusp_embayment/marina_sb_201504143_closest.jpg" alt=""><br><em>A series of megacusp embayments just north of Marina State Beach in Monterey Bay, CA. </em></div>
+                   
+								<h2>1. What are Megacusp Embayments?</h2>
+
+									<p><span class="image right"><img src="../images/megacusp_embayment/fig01.jpg" alt="" /></span>Rip current embaymentsare erosional features in the beach face at the shoreward head of rip current channels. Under the right wave and tide conditions, namely consistent swell at a shore normal incident angle, very large "megacusp" embaymentsor MCE (Fig. 1) can form with alongshore lengths ranging from 100-1000m and cross-shore amplitudes exceeding 50m.<sup>3,10,11</sup></p>
+                                    <p><em>Figure 1. (right) Aerial view of a typical MCE structure in Monterey Bay,CA. Alongshore sandbars are split by deep rip current channels with MCE at their heads.</em></p>
+
+                                    <hr />
+
+                                <h2>2. Episodic Extreme Erosion Events</h2>
+
+									<p><span class="image left"><img src="../images/megacusp_embayment/fig02.jpg" alt="" /></span>While MCE are transient, O(days-months), during large wave events, energy can be focused at embayment heads leading to extreme erosion hotspots.<sup>11</sup> Understanding MCE formation and tracking their occurrence in near real-time could improve coastal resilience planning and pre-storm preparation.</p>
+                                    <p><em>Figure 2. (left) A post-storm erosion scarp <em>O</em>(10m) at the head of an MCE in Lacanau, France (Ph. Julien Lestage).<sup>2</sup></em></p>
+                                    
+
+                                    <hr />
+                                
+                                <h2>3. Goals and Data - Can we "See" MCE?</h2>
+
+                                    <p><span class="image right"><img src="../images/megacusp_embayment/fig03.jpg" alt="" /></span>MCE have been studied using a variety of methods (Fig. 3). PlanetScopeprovides near-daily imagery of any beach at a 3m pixel resolution. This work seeks to: <br>
+                                        (I) Determine if MCE are detectable using PlanetScopeimagery. <br>
+                                        (II) Compare wave conditions causing MCE formation to previous findings. <br>
+                                        (III) Explore the potential value of an expanded MCE dataset.<br>
+                                    </p>
+
+                                    <p><em>Figure 3. (right) Spatial-temporal comparison of previous MCE study methods.<sup>12</sup></em></p>
+
+                                    <h3>Imagery and Wave Data</h3>
+
+                                    <p><b>Three sites</b>, Marina,CA (Monterey Bay), Montara,CA, and Duck,NC were selected for varied beach and wave conditions. <br>
+
+                                        <b>Six years</b> (Sep. 2017-Sep. 2023) of imagery was used to generate >600 “shorelines”per site, ~1 every 3-4 days on average. <br>
+                                        
+                                        <b>Nearshore wave data</b> is from the Coastal Data Information Program Monitoring and Prediction System (CDIP MOP) and the Wave Information Study (WIS) for Marina/Montara(15m depth) and Duck (24m depth) respectively.<br>
+                                    </p>
+
+                                    <h3>Wave Data Processing</h3>
+                                    
+                                    <p>For each date that a shoreline was detected at a given site, the average and variance of the wave parameters (significant wave height H<sub>s</sub>, mean period T<sub>a</sub>, peak period T<sub>p</sub>, and mean wave direction) of the five prior days were calculated to approximate rough antecedent conditions for comparison with compiled shoreline MCE metrics.</p>
+
+                                    <hr />
+
+                                <h2>4. Shoreline Processing, MCE Identification, and Metrics</h2>
+
+                                    <p>Data processing steps for each site are shown in Figures 4, 5, and 6 (below) <br>
+                                        <b>A</b> - CoastSatPlanetScope<sup>4</sup> is used to generate satellite-derived shorelines <br>
+                                        <b>B</b> - Shorelines are rotated and coordinates are converted for processing <br>
+                                        <b>C</b> - Shorelines are straightenedusing a quadratic fit<sup>11</sup> of all >600 shorelines <br>
+                                        <b>D</b> - Automated cleaning of anomalies, tails, and short chains is preformed <br>
+                                        <b>E</b> - Bandpass filters<sup>3</sup> are applied to remove signal above/below thresholds <br>
+                                        <b>F</b> - Peaks/minima are identified and MCE are filtered by size thresholds <br>
+                                        <b>G</b> - Measurements<sup>3</sup> are recorded for each MCE present <br>
+                                        <b>H</b> - MCE statistics are aggregated for each shoreline to create metrics
+                                        </p>
+
+                                    <span class="image fit" style="text-align: center"><img src="../images/megacusp_embayment/fig040506.jpg" alt="" /></span>
+                            
+
+                                    <hr />
+
+                                <h2>5. Wave Forcing Findings</h2>
+                                    
+                                    <p><span class="image right"><img src="../images/megacusp_embayment/fig07.jpg" alt="" /></span>Preliminary analysis of correlations between antecedent wave conditions and MCE metrics agree well with previous studies.<sup>10,11</sup> Waves from a consistent direction generated numerous large MCE at Marina and Montara. At Duck, where wave direction is rarely consistent, MCE were only observed sporadically. Spearman correlation found the Hs average was positively correlated with all metrics at Marina and Montara and that wave direction variance was negatively correlated with all metrics at all sites. Notably, if wave direction is shore normal, MCE appear to scale with Hs unbounded.</p>
+                                    <p><em>Figure 7. (right) Spearman correlation between the area magnitude metric and two wave conditions for all three sites. Marina showed the strongest correlations for all metric-wave condition pairs.</em></p>
+
+                                    <hr />
+
+                                <h2>6. Discussion & Next Steps</h2>
+
+                                        <p>Drone field work to quantify MCE identification uncertainty is ongoing (Fig. 8). In future work, wave parameters will be shoaled to shore to better resolve the relationship between forcings and metrics as MCE scale differences were observed over &lt1km at Marina. The effects of individual storm events will be quantified along with tracking of individual MCE evolution. While there is a clear seasonal trend at Montara and Marina (Fig. 9), significant yearly variation is evident, raising questions about the influence of climactic patterns. Finally, additional sites with varying wave conditions will be added to further strengthen the analysis. 
+                                        </p>
+
+                                        <p style="text-align: center"><em>Fig. 8.(below) PlanetScope (top) and drone (bottom) imagery taken &lt1s apart during a ~20 minute drone timelapse.
+                                        </em></p>
+                                        <span class="image fit" style="text-align: center"><img src="../images/megacusp_embayment/fig08.jpg" alt="" /></span>
+
+                                        <p style="text-align: center"><em>Figure 9. (below) Area magnitude metric for 4 years of shoreline detections (points) and their 10-sample rolling average (lines) for the Marina, CA site.
+                                        </em></p>
+                                        <span class="image fit" style="text-align: center"><img src="../images/megacusp_embayment/fig09.jpg" alt="" /></span>
+
+                                    <hr />
+                                
+                                <h2>7. Thank You!</h2>
+
+                                        <p>Thank you to <b>Kyle Cavanaugh</b>, <b>Kate Cavanaugh</b>, and <b>Lori Berberian</b> of UCLA for help accessing PlanetScope imagery! <br>
+                                        Thank you to WHOI’s COFDL group for thoughtful comments along the way and to Tori Chen for editing help! <br>
+                                        And BIG thank you to <b>NASA SARP</b> for funding my AGU travel!
+                                        </p>
+
+                                    <hr />
+
+                                <h2>8. Citations</h2>
+
+                                    <p>
+                                    <b>[1]</b> Birrien, F., Castelle, B., Dailloux, D., Marieu, V., Rihouey, D., & Price, T. (2013). Video observation of megacusp evolution along a high-energy engineered sandy beach: Anglet, SW France. Journal of Coastal Research, 1727–1732. 
+                                    <a href="https://doi.org/10.2112/SI65-292.1" target="_blank">https://doi.org/10.2112/SI65-292.1</a>
+                                    </p>
+                                    
+                                    <p>
+                                    <b>[2]</b> Castelle, B., Marieu, V., Bujan, S., Splinter, K. D., Robinet, A., Sénéchal, N., & Ferreira, S. (2015). Impact of the winter 2013–2014 series of severe Western Europe storms on a double-barred sandy coast: Beach and dune erosion and megacusp embayments. Geomorphology, 238, 135–148. 
+                                    <a href="https://doi.org/10.1016/j.geomorph.2015.03.006" target="_blank">https://doi.org/10.1016/j.geomorph.2015.03.006</a>
+                                    </p>
+                                    
+                                    <p>
+                                    <b>[3]</b> Dalon, M. M., Haller, M., & Allan, J. (2007). Morphological Characteristics of Rip Current Embayments on the Oregon Coast. Coastal Sediments ’07, 2137–2150. 
+                                    <a href="https://doi.org/10.1061/40926(239)168" target="_blank">https://doi.org/10.1061/40926(239)168</a>
+                                    </p>
+                                    
+                                    <p>
+                                    <b>[4]</b> Doherty, Y., Harley, M. D., Vos, K., & Splinter, K. D. (2022). A Python toolkit to monitor sandy shoreline change using high-resolution PlanetScope cubesats. Environmental Modelling & Software, 157, 105512. 
+                                    <a href="https://doi.org/10.1016/j.envsoft.2022.105512" target="_blank">https://doi.org/10.1016/j.envsoft.2022.105512</a>
+                                    </p>
+                                    
+                                    <p>
+                                    <b>[5]</b> Holman, R. A., Symonds, G., Thornton, E. B., & Ranasinghe, R. (2006). Rip spacing and persistence on an embayed beach. Journal of Geophysical Research: Oceans, 111(C1). 
+                                    <a href="https://doi.org/10.1029/2005JC002965" target="_blank">https://doi.org/10.1029/2005JC002965</a>
+                                    </p>
+                                    
+                                    <p>
+                                    <b>[6]</b> List, J. H., Farris, A. S., & Sullivan, C. (2006). Reversing storm hotspots on sandy beaches: Spatial and temporal characteristics. Marine Geology, 226(3–4), 261–279. 
+                                    <a href="https://doi.org/10.1016/j.margeo.2005.10.003" target="_blank">https://doi.org/10.1016/j.margeo.2005.10.003</a>
+                                    </p>
+                                    
+                                    <p>
+                                    <b>[7]</b> Loureiro, C., Ferreira, Ó., & Cooper, J. A. G. (2012). Extreme erosion on high-energy embayed beaches: Influence of megarips and storm grouping. Geomorphology, 139–140, 155–171. 
+                                    <a href="https://doi.org/10.1016/j.geomorph.2011.10.013" target="_blank">https://doi.org/10.1016/j.geomorph.2011.10.013</a>
+                                    </p>
+                                    
+                                    <p>
+                                    <b>[8]</b> Matsumoto, H., Young, A. P., & Guza, R. T. (2020). Cusp and Mega Cusp Observations on a Mixed Sediment Beach. Earth and Space Science, 7(10), e2020EA001366. 
+                                    <a href="https://doi.org/10.1029/2020EA001366" target="_blank">https://doi.org/10.1029/2020EA001366</a>
+                                    </p>
+                                    
+                                    <p>
+                                    <b>[9]</b> McCarroll, R. J., Brander, R. W., Turner, I. L., & Leeuwen, B. V. (2016). Shoreface storm morphodynamics and mega-rip evolution at an embayed beach: Bondi Beach, NSW, Australia. Continental Shelf Research, 116, 74–88. 
+                                    <a href="https://doi.org/10.1016/j.csr.2016.01.013" target="_blank">https://doi.org/10.1016/j.csr.2016.01.013</a>
+                                    </p>
+                                    
+                                    <p>
+                                    <b>[10]</b> Orzech, M. D., Reniers, A. J. H. M., Thornton, E. B., & MacMahan, J. H. (2011). Megacusps on rip channel bathymetry: Observations and modeling. Coastal Engineering, 58(9), 890–907. 
+                                    <a href="https://doi.org/10.1016/j.coastaleng.2011.05.001" target="_blank">https://doi.org/10.1016/j.coastaleng.2011.05.001</a>
+                                    </p>
+                                    
+                                    <p>
+                                    <b>[11]</b> Thornton, E. B., MacMahan, J., & Sallenger, A. H. (2007). Rip currents, mega-cusps, and eroding dunes. Marine Geology, 240(1), 151–167. 
+                                    <a href="https://doi.org/10.1016/j.margeo.2007.02.018" target="_blank">https://doi.org/10.1016/j.margeo.2007.02.018</a>
+                                    </p>
+                                    
+                                    <p>
+                                    <b>[12]</b> Vitousek, S., Buscombe, D., Vos, K., Barnard, P. L., Ritchie, A. C., & Warrick, J. A. (2023). The future of coastal monitoring through satellite remote sensing. Cambridge Prisms: Coastal Futures, 1, e10. 
+                                    <a href="https://doi.org/10.1017/cft.2022.4" target="_blank">https://doi.org/10.1017/cft.2022.4</a>
+                                    </p>
+
+                                <hr />
+                                        
+
+							</section>
+						
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section class="alt">
+								<h3>Affiliation</h3>
+								<p><a href="https://cee.mit.edu/">Massachusetts Institute of Technology - Department of Civil and Environmental Engineering</a><br />
+								<a href="https://www.whoi.edu/what-we-do/understand/departments-centers-labs/aope/">Woods Hole Oceanographic Institute - Applied Ocean Physics and Engineering</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="mailto:kelbyh2okramer@gmail.com">kelbyh2okramer@gmail.com</a></p>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li style="color:#cccccc;">&copy; Kelby Kramer</li><li style="color:#cccccc;">Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+                        <ul><li style="color:#cccccc;">all views expressed are my own :)</li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
